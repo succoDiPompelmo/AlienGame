@@ -14,13 +14,13 @@ on your device, here is the link to download it [PYTHON 2.7](https://www.python.
 Next you have to install the pygame library to run the game, but first you need to check
 if you have pip installed, to check so you need to run on your terminal (Linux, OS):
 
-```
+```sh
 $ pip --version
 ```
 
 if the output is somethin like this:
 
-```
+```sh
 pip 7.0.3 from /usr/local/lib/python3.5/dist-packages (python 3.5)
 $
 ```
@@ -32,22 +32,23 @@ If you get an erro message you can move on this site and follow the instructions
 
 You’ll need Homebrew to install some packages that Pygame depends on.
 To install the libraries that Pygame depends on, enter the following:
-```
+```sh
 $ brew install hg sdl sdl_image sdl_ttf
 ```
 If you also want to enable more advanced functionality, 
 such as includ- ing sound in games, you can install two additional libraries:
-```
+```sh
 $ brew install sdl_mixer portmidi
 ```
 Use the following command to install Pygame:
-```
+```sh
 $ pip install --user hg+http://bitbucket.org/pygame/pygame
 ```
 Check wether the installation was successful:
-```
+```sh
 $ python3
->>> import pygame >>>
+>>> import pygame 
+>>>
 ```
 if the impoer statement work, you have finished the initialization procedure and 
 you can run the game
